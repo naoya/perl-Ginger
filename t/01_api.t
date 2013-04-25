@@ -12,5 +12,6 @@ my $ginger = Ginger->new(
 
 is $ginger->gingeration("Hello, World"), "Hello, World";
 is $ginger->gingeration("this is test"), "This is a test";
+is $ginger->gingeration("give me a API key"), "Give me an API key";
 
 done_testing;
