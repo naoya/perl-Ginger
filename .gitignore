@@ -1,3 +1,9 @@
+.carton/
+local/
+carton.lock
+MYMETA.json
+MYMETA.yml
+
 cover_db
 META.yml
 Makefile

@@ -1,27 +1,25 @@
-This is Perl module Ginger.
+NAME
+    Ginger - Handle Ginger Unofficial API
 
-INSTALLATION
+SYNOPSIS
+      use Ginger;
+      my $ginger = Ginger->new(
+          lang => 'US',
+          version => '2.0',
+          api_key => '6ae0c3a0-afdc-4532-a810-82ded0054236'
+      );
+      is $ginger->gingeration("this is test"), "This is a test";
 
-Ginger installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
+DESCRIPTION
+    Ginger - Handle Ginger Unofficial API.
 
-    % cpan Ginger
+    I'm not sure how to get an API key :/
 
-Download it, unpack it, then build it as per the usual:
+AUTHOR
+    Naoya Ito <i.naoya@gmail.com>
 
-    % perl Makefile.PL
-    % make && make test
+SEE ALSO
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-Then install it:
-
-    % make install
-
-DOCUMENTATION
-
-Ginger documentation is available as in POD. So you can do:
-
-    % perldoc Ginger
-
-to read the documentation online with your favorite pager.
-
-Naoya Ito
