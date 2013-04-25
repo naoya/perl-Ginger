@@ -56,7 +56,11 @@
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/naoya/perl-Ginger.git"
+      }
    },
    "version" : "0.01"
 }
