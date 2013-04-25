@@ -81,7 +81,7 @@ Ginger - Handle Ginger Unofficial API
 
 This module provides some interfaces for handling Ginger Unofficial API.
 
-The riginal version by Yuji Shimada (also known as xaicron) - <http://blog.livedoor.jp/xaicron/archives/54466736.html>
+Original version by Yuji Shimada (also known as xaicron) - <http://blog.livedoor.jp/xaicron/archives/54466736.html>
 
 BTW, I'm not sure how to get an API key :/
 
