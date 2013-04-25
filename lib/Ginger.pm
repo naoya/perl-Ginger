@@ -71,9 +71,9 @@ Ginger - Handle Ginger Unofficial API
 
   use Ginger;
   my $ginger = Ginger->new(
-      lang => 'US',
+      lang    => 'US',
       version => '2.0',
-      api_key => '6ae0c3a0-afdc-4532-a810-82ded0054236'
+      api_key => '...'
   );
   is $ginger->gingeration("this is test"), "This is a test";
 
