@@ -11,9 +11,12 @@ SYNOPSIS
       is $ginger->gingeration("this is test"), "This is a test";
 
 DESCRIPTION
-    Ginger - Handle Ginger Unofficial API.
+    This module provides some interfaces for handling Ginger Unofficial API.
 
-    I'm not sure how to get an API key :/
+    The riginal version by Yuji Shimada (also known as xaicron) -
+    <http://blog.livedoor.jp/xaicron/archives/54466736.html>
+
+    BTW, I'm not sure how to get an API key :/
 
 AUTHOR
     Naoya Ito <i.naoya@gmail.com>
